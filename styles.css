@@ -1,0 +1,88 @@
+/*
+  Group F1
+  This is the styles.css page for HIV/AIDS and ART Treatment Data
+  It is used by all pages in the project to give the site a consistent
+  look and feel.
+*/
+
+body {
+  background: #ffe4c4;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  width: 80%;
+  padding: 0%;
+  margin:0;
+  position: relative;
+  min-height: 100vh;
+}
+
+#main, #globe {
+  display: block;
+  width: 40%;
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+#main, #globe, body {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#main, #globe, #intro, #sources, #conclusion {
+  margin-bottom: 20px;
+}
+
+#globe {
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: 8px solid #d81d3c;
+  padding: 12px;
+}
+
+h1, footer, #navbar {
+   text-align: center;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 50px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+li {
+  position:relative;
+  padding:10px 20px;
+  border-top-right-radius:10px;
+  border-bottom-left-radius:10px;
+  transition:all 1s;
+}
+
+h2 {
+  font-size: 30pt;
+}
+
+#intro, #sources, #conclusion {
+  margin: auto;
+  padding: 30px;
+  border-top: 15px solid #d81d3c;
+  border-bottom: 15px solid #d81d3c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  align-items: center;
+  width: 100%;
+  padding: 22px;
+  left:0;
+  position: absolute;
+  bottom: 10px;
+  height: 2.5rem;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
